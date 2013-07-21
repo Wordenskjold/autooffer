@@ -1,0 +1,8 @@
+autooffer.wiki/
+inspiration/
+user_guide/
+application/libraries/vendor/
+application/libraries/sparks/
+*/logs/*
+*/composer.lock
+xhprof/

@@ -1,0 +1,26 @@
+{
+    "require": {
+        "doctrine/orm": "*",
+        "aws/aws-sdk-php": "2.3.*@dev",
+        "facebook/libphutil": "dev-master",
+        "facebook/xhp": "dev-master",
+        "rogeriopradoj/codeigniter-restclient": "dev-master",
+        "sherlock/sherlock": "~0.1"
+    },
+    "autoload": {
+    	"files": [
+    		"vendor/facebook/libphutil/src/__phutil_library_init__.php",
+            "vendor/facebook/xhp/init.php"
+    	]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/Wordenskjold/libphutil.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/Wordenskjold/xhp.git"
+        }
+    ]
+}
